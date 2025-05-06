@@ -1,0 +1,28 @@
+:root{
+    
+}
+
+.rightBlock{
+
+}
+
+.leftBlock{
+    
+}
+
+.topBlock{
+border-style: solid;
+}
+
+.bottomBlock{
+border-style: solid;
+}
+
+.midBlock{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
