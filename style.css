@@ -2,12 +2,21 @@
     
 }
 
-.rightBlock{
+body{
+    display: flex;
+    margin: 0;
+}
 
+.rightBlock{
+    border-color: blue;
+    border-style: solid;
+    
 }
 
 .leftBlock{
     
+border-color: red;
+border-style: solid;
 }
 
 .topBlock{
