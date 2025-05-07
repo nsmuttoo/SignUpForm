@@ -1,5 +1,5 @@
 :root{
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body{
@@ -17,15 +17,39 @@ body{
     
 border-color: red;
 border-style: solid;
+
+width: 50%;
+height: 100%;
+}
+
+.leftBlock>div{
+    position: absolute;
+    top: 30%;
+   
+    color: white;
+    background-color: black;
+    width: 40%;
+    text-align: center;
+}
+.leftBlock>p{
+    position: absolute;
+    bottom: 2%;
+    color: white;
+    text-align: center;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;  
 }
 
 .topBlock{
 border-style: solid;
+height: 30%;
 }
 
-.bottomBlock{
-border-style: solid;
-}
+
 
 .midBlock{
     display: flex;
@@ -33,5 +57,12 @@ border-style: solid;
     flex-direction: column;
     flex-wrap: wrap;
     border-style: solid;
+    height: 40%;
 }
+
+.bottomBlock{
+    height: 200px;
+    border-style: solid;
+    
+    }
 
