@@ -1,5 +1,6 @@
 :root{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1f2937;
 }
 
 body{
@@ -8,15 +9,14 @@ body{
 }
 
 .rightBlock{
-    border-color: blue;
-    border-style: solid;
+  
+    width: 70%;
     
 }
 
 .leftBlock{
     
-border-color: red;
-border-style: solid;
+
 
 width: 50%;
 height: 100%;
@@ -45,24 +45,77 @@ img{
 }
 
 .topBlock{
-border-style: solid;
-height: 30%;
+
+height: 20%;
+background-color: #f9fafb;
+color: black;
+padding: 30px;
+font-weight: 700;
+padding-top: 40px;
 }
 
 
 
 .midBlock{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    flex-wrap: wrap;
-    border-style: solid;
+    
+    background-color: rgb(255, 255, 255);
     height: 40%;
+    
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.formItems{
+    display: flex;
+    justify-content: space-around;
+    
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 80%;
+    
+}
+
+.midBlock>div>div{
+    
+
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.midBlock>div>div>input{
+    border: solid;
+    border-width: 2px;
+    border-radius: 10%;
+    height: 15px;
+    border-color: #E5E7EB;
+    background-color: #fffefe;
+}
+
+input,label{
+    display: block;
 }
 
 .bottomBlock{
     height: 200px;
-    border-style: solid;
     
+    background-color:  #f9fafb;
+    padding: 45px;
     }
+
+button{
+    background-color: #596D48;
+    border-radius: 10%;
+    border-color: #596D48;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a{
+    color: #596D48;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
 
