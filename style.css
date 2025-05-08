@@ -3,6 +3,11 @@
     color: #1f2937;
 }
 
+@font-face {
+    font-family: norse;
+    src: url(./fonts/Norse-Bold.otf);
+  }
+
 body{
     display: flex;
     margin: 0;
@@ -24,21 +29,57 @@ width: 50%;
 height: 100%;
 }
 
-.leftBlock>div{
+.logoBox{
     position: absolute;
     top: 30%;
    
+    height: 15%;
+    color: white;
+   
+    width: 40%;
+    
+   
+    display: flex;
+    justify-content: center;
+}
+.logoBox img{
+    
+    height: auto;
+    width: auto;
+    
+    
+}
+
+.logoBox div{
+    font-family: norse;
+    font-size: 72px;
+    color: white;
+    position: relative;
+    left: 1rem;
+    top: 15px;
+  
+    
+}
+
+#back{
+    position: absolute;
+    top: 30%;
+   
+    height: 15%;
     color: white;
     background-color: black;
-    width: 40%;
-    text-align: center;
+    width: 41.5%;
+
+    opacity: 0.5;
 }
+
+
 .leftBlock>p{
     position: absolute;
     bottom: 2%;
     color: white;
     text-align: center;
-
+    left: 5%;
 }
 
 img{
